@@ -1,0 +1,2 @@
+a = "Rohit"
+print(a)
