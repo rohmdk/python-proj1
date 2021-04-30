@@ -1,2 +1,3 @@
-a = input("What is your name")
+a = input("Enter the number only: ")
+a = int(a) #convert string to int
 print(type(a))

@@ -1,8 +1,14 @@
-import hwmonitor
-hwmonitor.read()
-SMART Disk XXX (ZZZ): 55 C
+# importing os module 
+import os 
+      
+# Get the current working 
+# directory (CWD) 
+cwd = os.getcwd() 
+      
+# Print the current working 
+# directory (CWD) 
+print("Current working directory:", cwd) 
 
-hwmonitor.sensors()
-{'SMART Disk XXX (ZZZ)': 55, ...}
 
-hwmonitor.sensor("air")
+
+
